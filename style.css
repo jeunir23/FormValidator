@@ -1,0 +1,26 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.table {
+  border-collapse: collapse;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+  background-color: rgba(244, 247, 252, 0.75);
+  text-align: left;
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+
+tr.hide {
+  display: none;
+}
