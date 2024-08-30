@@ -24,3 +24,21 @@
 tr.hide {
   display: none;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 500px;
+}
+
+.form h1 {
+  margin: 0;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}

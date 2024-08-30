@@ -27,9 +27,22 @@
       </thead>
       <tbody></tbody>
     </table>
-    <div>
+    <div class="form">
       <h1>Please Enter the Information</h1>
-      <form id="infoForm"></form>
+      <form id="infoForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="birthdate">Birthdate:</label>
+        <input
+          type="text"
+          id="birthdate"
+          name="birthdate"
+          required
+        /><br /><br />
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
     </div>
 
     <script src="TableSearchable.js"></script>
