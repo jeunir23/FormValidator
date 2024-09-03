@@ -1,4 +1,4 @@
-const form = document.getElementsById("infoForm");
+const form = document.getElementById("infoForm");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -18,4 +18,9 @@ form.addEventListener("submit", function (event) {
   const cell2 = newRow.insertCell(1);
   const cell3 = newRow.insertCell(2);
   const cell4 = newRow.insertCell(3);
+
+  cell1.textContent = name;
+  cell2.textContent = birthdate;
+  cell3.textContent = age;
+  cell4.textContent = number;
 });
