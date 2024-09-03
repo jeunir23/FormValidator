@@ -9,6 +9,8 @@ form.addEventListener("submit", function (event) {
   const number = document.getElementById("number").value;
 
   const table = document
-    .getElementById("infoTable")
+    .getElementById("myTable")
     .getElementsByTagName("tbody")[0];
+
+  const newRow = table.insertRow();
 });
