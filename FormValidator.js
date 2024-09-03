@@ -6,5 +6,5 @@ form.addEventListener("submit", function (event) {
   const name = document.getElementById("name").value;
   const birthdate = document.getElementById("name").value;
   const age = document.getElementById("name").value;
-  const contact = document.getElementById("name").value;
+  const number = document.getElementById("name").value;
 });
