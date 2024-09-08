@@ -33,7 +33,8 @@
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
         <label for="birthdate">Birthdate:</label>
-        <input type="text" id="birthdate" name="birthdate" required />
+        <input type="date" id="birthdate" name="birthdate" value="YYYY-MM-DD"
+        min="1800-01-01" max="2024-12-31" required" />
         <label for="age">Age:</label>
         <input type="number" id="age" name="age" required />
         <label for="number">Contact Number:</label>
@@ -49,7 +50,7 @@
       </form>
     </div>
 
-    <script src="TableSearchable.js"></script>
     <script src="FormValidator.js"></script>
+    <script src="TableSearchable.js"></script>
   </body>
 </html>
