@@ -1,3 +1,4 @@
+"use strict";
 const form = document.getElementById("infoForm");
 
 form.addEventListener("submit", function (event) {

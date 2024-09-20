@@ -25,15 +25,6 @@ tr.hide {
   display: none;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 20px;
-  margin-left: 500px;
-}
-
 .form h1 {
   margin: 0;
 }
@@ -41,5 +32,12 @@ tr.hide {
 .form form {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+input {
+  width: 400px;
+}
+
+.submit {
+  margin-bottom: 50px;
 }
