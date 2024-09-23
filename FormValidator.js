@@ -1,5 +1,6 @@
 "use strict";
 const form = document.getElementById("infoForm");
+const age = document.getElementById("age").value;
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -31,4 +32,10 @@ form.addEventListener("submit", function (event) {
 function deleteRow(evt) {
   const deleteIndex = evt.parentElement.parentElement.rowIndex;
   document.getElementById("myTable").deleteRow(deleteIndex);
+}
+
+function calculateAge() {
+  const birthdate = new Date(document.getElementById("birthdate").value);
+  const age = new Date().getFullYear() - birthdate.getFullYear();
+  document.getElementById("age").value = age;
 }
